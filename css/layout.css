@@ -1,0 +1,27 @@
+@media (min-width: 800px) {
+    .grid1_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .overskrifter_ommig{
+        text-align: center;
+        margin-top: 45%;
+        line-height: 40%;
+    }
+
+    .grid2_2-1{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
