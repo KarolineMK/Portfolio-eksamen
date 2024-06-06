@@ -19,8 +19,7 @@ body{
 header{
   font-family: "Assistant";
   color: #59192A;
-  text-align: end;
-  font-size: 27px;
+  font-size: 20px;
  }
 
  footer{
@@ -46,6 +45,11 @@ h2{
   font-family: "Prata";
 }
 
+h3{
+  font-size: 16px;
+  font-family: "Assistant";
+}
+
 p{
   font-family: "Assistant";
   font-size: 16px;
@@ -57,4 +61,21 @@ p{
   font-size: 20px;
   font-weight: 700;
   font-family: "Prata";
+}
+
+/* hover effekt på billederne på projekter site  */
+
+.image-link img {
+  display: block;
+  max-width: 100%; /* Ensures the image scales within its container */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.image-link:hover img{
+  filter: grayscale(100%);
+}
+
+.flex_col:hover{
+  font-style: italic;
+  font-weight: bolder;
 }
