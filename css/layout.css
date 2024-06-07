@@ -24,15 +24,15 @@
         padding: 4%;
     }
 }
-
-
-
-    h1{  text-align: center;  
-        font-size: 10px; 
+ @media (max-width: 800px){ 
+    h1{ text-align: center;
+        font-size: 40px; 
+        white-space: normal;
     }   
 
     h2{ text-align: center;  
      } 
+    }
 
 
 

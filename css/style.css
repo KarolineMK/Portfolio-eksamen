@@ -16,10 +16,18 @@ body{
   margin: 5%;
  } 
 
+ main{
+  padding-top: 40px;
+ }
+
 header{
+  position: fixed;
   font-family: "Assistant";
   color: #F29985;
   font-size: 20px;
+  background-color: #E8EDED;
+  width: 100%;
+  top: 0%;
  }
 
  .menu:hover{
@@ -57,6 +65,7 @@ h1{
   font-family: "Prata"; 
   font-size: 60px;
   color: #59192A;
+  text-align: center;
 }
 
 h2{
