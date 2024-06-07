@@ -18,13 +18,19 @@ body{
 
 header{
   font-family: "Assistant";
-  color: #59192A;
+  color: #F29985;
   font-size: 20px;
+ }
+
+ .menu:hover{
+  font-weight: 500;
  }
 
  footer{
   border-top:2px solid #59192A;
   margin: 0%;
+  font-family: "Assistant";
+  font-size: 16px;
  }
 
 li{
@@ -32,6 +38,19 @@ li{
   align-items: center;
   display: inline-block; 
   padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #F29985;
+}
+
+a:hover{
+  font-weight: bolder;
+}
+
+a:visited{
+  color: #F29985;
 }
 
 h1{
@@ -42,7 +61,7 @@ h1{
 
 h2{
   font-size: 30px;
-  font-family: "Prata";
+  font-family: "Assistant";
 }
 
 h3{
@@ -53,6 +72,18 @@ h3{
 p{
   font-family: "Assistant";
   font-size: 16px;
+}
+
+/* css på links  */
+
+.link{
+  font-family: "Assistant";
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  border-bottom: 1px solid #F29985;
 }
 
 .box{
