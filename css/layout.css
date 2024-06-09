@@ -31,14 +31,14 @@
 
 }
  @media (max-width: 800px){ 
-    h1{ text-align: center;
-        font-size: 40px; 
-        white-space: normal;
+    h1{ 
+        font-size: 7vw;
     }   
-
-    h2{ text-align: center;  
-     } 
+    p{
+        max-width: fit-content;
     }
+}
+
 
     /* billede galleri på index */
 
