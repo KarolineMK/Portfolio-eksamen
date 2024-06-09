@@ -23,6 +23,7 @@
     .flex_col{
         padding: 4%;
     }
+
 }
  @media (max-width: 800px){ 
     h1{ text-align: center;
