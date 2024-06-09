@@ -4,6 +4,11 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .gridommig_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .overskrifter_ommig{
         text-align: center;
         margin-top: 45%;
