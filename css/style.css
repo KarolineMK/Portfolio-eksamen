@@ -56,6 +56,10 @@ li{
   padding: 10px;
 }
 
+.grid1_1-1{
+  border-top: 1px solid #F29985;
+}
+
 a{
   text-decoration: none;
   color: #F29985;
