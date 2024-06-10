@@ -109,6 +109,7 @@ p{
   line-height: 1.5;
   margin-left: 17%;
   margin-right: 17%;
+  margin-bottom: 1%; 
 }
 
 .underoverskrift-index{
@@ -141,6 +142,8 @@ font-size: 25px;
   text-decoration: none;
   color: #F29985;
   font-size: 20px;
+  margin-left: 17%;
+  margin-bottom: 2%;
 }
 
 .link:hover {
