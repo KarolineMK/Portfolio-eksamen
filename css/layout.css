@@ -20,9 +20,9 @@
         grid-template-columns: 2fr 1fr 1fr;
     }
 
-    .gridprojekter_1-1-1{
+    .gridprojekter_1-1{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     } 
 
     .flex_col{
@@ -62,20 +62,7 @@
         font-family: "Prata";
         color: #59192A;
     }
-
-}
- @media (max-width: 800px){ 
-    h1{ 
-        font-size: 7vw;
-    }   
-    p{
-        max-width: fit-content;
-    }
-}
-
-
     /* billede galleri på index */
-
     .galleri{
         display: grid;
         grid-template-columns: repeat(8, 1fr);
@@ -147,3 +134,24 @@
     } 
 
 
+}
+ @media (max-width: 800px){ 
+    h1{ 
+        font-size: 7vw;
+    }   
+    p{
+        max-width: fit-content;
+    }
+}
+
+@media (min-width: 1500px) {
+    p{
+        font-size: 20px;
+    }
+
+    a{
+        font-size: 23px;
+    }
+}
+
+   
