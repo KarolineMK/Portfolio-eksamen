@@ -87,19 +87,19 @@ h2{
   font-family: "Assistant";
 }
 
-h3{
-  font-size: 20px;
-  font-family: "Assistant";
-  line-height: 1.5;
-  margin-left: 17%;
-  margin-right: 17%;
-}
-
 p{
   font-family: "Assistant";
   font-size: 16px;
   width: 65ch;
   line-height: 2;
+}
+
+.info-tekst{
+  font-size: 20px;
+  font-family: "Assistant";
+  line-height: 1.5;
+  margin-left: 17%;
+  margin-right: 17%;
 }
 
 .overskrift-index h2{
