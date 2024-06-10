@@ -102,6 +102,12 @@ p{
   line-height: 2;
 }
 
+.overskrift-index h2{
+max-width: 65ch;
+text-align: center;
+margin-left: 5%;
+}
+
 .ommig_liste{
     border-style: solid;
     border-color: rgb(240, 238, 234);
