@@ -109,12 +109,13 @@ p{
 .underoverskrift-index{
 max-width: 65ch;
 text-align: center;
-margin-left: 15%;
+margin-left: 10%;
+font-size: 25px;
 }
 
 .overskrift-index{
-  font-size: 90px;
-}
+  font-size: 70px;
+} 
 
 .ommig_liste{
     border-style: solid;

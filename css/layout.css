@@ -45,7 +45,7 @@
     }
     
     .cv h2 {
-        grid-column: span 3; /* Make the h2 span all 3 columns */
+        grid-column: span 3; 
     }
     
     .cv div {
@@ -53,9 +53,9 @@
         border-radius: 10px; 
         text-align: center; 
         width: 300px;
-  height: 200px;
-  padding-top: 70px;
-  padding-bottom: 40px;
+        height: 200px;
+        padding-top: 70px;
+        padding-bottom: 40px;
     }
 
     .cv p{
@@ -119,7 +119,7 @@
     }
 
     .galleri_5{
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 7;
         grid-row-start: 6;
         grid-row-end: 9;
@@ -141,9 +141,9 @@
 
     .galleri_8{
         grid-column-start: 7;
-        grid-column-end: 10;
-        grid-row-start: 3;
-        grid-row-end: 7;
-    }
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    } 
 
 
