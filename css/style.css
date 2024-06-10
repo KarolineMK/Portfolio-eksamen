@@ -87,6 +87,10 @@ h2{
   font-family: "Assistant";
 }
 
+.underoverskrift-pro{
+  text-align: center;
+}
+
 p{
   font-family: "Assistant";
   font-size: 16px;
@@ -102,10 +106,14 @@ p{
   margin-right: 17%;
 }
 
-.overskrift-index h2{
+.underoverskrift-index{
 max-width: 65ch;
 text-align: center;
-margin-left: 5%;
+margin-left: 15%;
+}
+
+.overskrift-index{
+  font-size: 90px;
 }
 
 .ommig_liste{
@@ -137,8 +145,8 @@ margin-left: 5%;
 
 .image-link img {
   display: block;
-  max-width: 100%; /* Ensures the image scales within its container */
-  height: auto; /* Maintains the aspect ratio */
+  max-width: 100%; 
+  height: auto; 
 }
 
 .image-link:hover img{
