@@ -81,7 +81,8 @@ a:visited{
 
 h1{
   font-family: "Prata"; 
-  font-size: 60px;
+  /* font-size: 10vw; */
+  /* font-size: 60px; */
   color: #59192A;
   text-align: center;
 }
