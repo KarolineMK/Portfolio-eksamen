@@ -14,13 +14,14 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1em;
         justify-content: space-between;
+        padding-top: 3%;
     }
 
     .overskrifter_ommig{
         text-align: center;
-        margin-top: 45%;
-        line-height: 40%;
+        margin-top: 30%;
     }
+
 
     .grid2_2-2{
         display: grid;

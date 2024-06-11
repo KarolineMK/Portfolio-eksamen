@@ -14,38 +14,30 @@
     margin-bottom: 3%;
   }
 
-  .billede_ommig{
-    margin: 10%;
+   .billede_ommig{
+    margin: 7%; 
     max-width: 100%; 
-  }
+  } 
 
   /* html css */
 body{
-  margin: 5%;
+  margin: 5%; 
   background-color: #D3DEDC;
  } 
 
  main{
-  padding-top: 40px;
   background-color: #D3DEDC;
  }
 
  /* header css */
 
 header{
-  position: fixed;
   font-family: "Assistant";
   color: #59192A;
   font-size: 24px;
   background-color: #D3DEDC;
   width: 100%;
-  top: 0%;
-  z-index: 10;
- }
-
-.menu{
-  top: 0%;
-}
+ } 
 
 /* footer css */
 
@@ -70,7 +62,7 @@ li{
   align-items: center;
   display: inline-block; 
   padding: 10px;
-}
+} 
 
 /* lidt layout css */ 
 
@@ -137,7 +129,7 @@ p{
 
 /* css på links  */
 
-.link{
+ .link{
   font-family: "Assistant";
   text-decoration: none;
   color: #59192A;
@@ -164,7 +156,7 @@ a:hover{
 
 a:visited{
   color: #59192A;
-}
+} 
 /* hover effekt på billederne på projekter site  */
 
 .image-link img {
