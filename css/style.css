@@ -14,6 +14,12 @@
     margin-bottom: 3%;
   }
 
+  .billede_ommig{
+    margin: 10%;
+    max-width: 100%; 
+  }
+
+  /* html css */
 body{
   margin: 5%;
   background-color: #D3DEDC;
@@ -24,6 +30,8 @@ body{
   background-color: #D3DEDC;
  }
 
+ /* header css */
+
 header{
   position: fixed;
   font-family: "Assistant";
@@ -32,11 +40,14 @@ header{
   background-color: #D3DEDC;
   width: 100%;
   top: 0%;
+  z-index: 10;
  }
 
- .menu:hover{
-  font-weight: 500;
- }
+.menu{
+  top: 0%;
+}
+
+/* footer css */
 
  footer{
   border-top: 2px solid #59192A;
@@ -61,29 +72,21 @@ li{
   padding: 10px;
 }
 
+/* lidt layout css */ 
+
 .grid1_1-1{
   border-top: 1px solid #F29985;
 }
 
-a{
-  text-decoration: none;
-  color: #F29985; 
-  font-weight: bolder;
-  font-size: 20px;
+.uddannelse-grid {
+  border: 2px solid #59192A; 
+  border-radius: 20px;
 }
 
-a:hover{
-  font-weight:normal;
-}
-
-a:visited{
-  color: #F29985;
-}
+/* overskrifter css  */
 
 h1{
   font-family: "Prata"; 
-  /* font-size: 10vw; */
-  /* font-size: 60px; */
   color: #59192A;
   text-align: center;
 }
@@ -91,27 +94,6 @@ h1{
 h2{
   font-size: 30px;
   font-family: "Assistant";
-}
-
-
-p{
-  font-family: "Assistant";
-  font-size: 16px;
-  max-width: 65ch;
-  line-height: 2;
-}
-
-.underoverskrift-pro{
-  text-align: center;
-}
-
-.info-tekst{
-  font-size: 20px;
-  font-family: "Assistant";
-  line-height: 1.5;
-  margin-left: 17%;
-  margin-right: 17%;
-  margin-bottom: 1%; 
 }
 
 .underoverskrift-index{
@@ -124,10 +106,26 @@ font-size: 25px;
 .overskrift-index{
   font-size: 70px;
 } 
+.underoverskrift-pro{
+  text-align: center;
+}
 
-.uddannelse-grid {
-  border: 2px solid #59192A; 
-  border-radius: 20px;
+/* brødtekst css */
+
+p{
+  font-family: "Assistant";
+  font-size: 16px;
+  max-width: 65ch;
+  line-height: 2;
+}
+
+.info-tekst{
+  font-size: 20px;
+  font-family: "Assistant";
+  line-height: 1.5;
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-bottom: 1%; 
 }
 
 .uddannelsetekst{
@@ -135,27 +133,45 @@ font-size: 25px;
   font-family: "Prata";
 }
 
+
+
 /* css på links  */
 
 .link{
   font-family: "Assistant";
   text-decoration: none;
-  color: #F29985;
+  color: #59192A;
   font-size: 20px;
   margin-left: 17%;
   margin-bottom: 2%;
 }
 
-.link:hover {
-  border-bottom: 1px solid #F29985;
+.web-link{
+  font-size: 16px;
+  font-weight: normal;
 }
 
+a{
+  text-decoration: none;
+  color: #59192A; 
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:visited{
+  color: #59192A;
+}
 /* hover effekt på billederne på projekter site  */
 
 .image-link img {
   display: block;
   max-width: 100%; 
   height: auto; 
+  z-index: 1;
 }
 
 .image-link:hover img{

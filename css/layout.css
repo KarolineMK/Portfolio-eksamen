@@ -73,7 +73,9 @@
     h1{
         font-size: 60px;
     } 
+
     /* billede galleri på index */
+
     .galleri{
         display: grid;
         grid-template-columns: repeat(8, 1fr);
@@ -156,17 +158,40 @@
     }
 
     .info-tekst{
-        max-width: 45ch;
+        max-width: 45ch; 
     }
+
+    .grid_1-1-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    .galleri_1,
+    .galleri_2,
+    .galleri_3,
+    .galleri_4,
+    .galleri_5,
+    .galleri_6,
+    .galleri_7,
+    .galleri_8 {
+        display: none;   
+ }
 }
 
 @media (min-width: 1500px) {
     p{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     a{
         font-size: 23px;
+    }
+
+    .gridommig_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
     }
 }
 
