@@ -9,6 +9,13 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .grid_1-1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+        justify-content: space-between;
+    }
+
     .overskrifter_ommig{
         text-align: center;
         margin-top: 45%;
